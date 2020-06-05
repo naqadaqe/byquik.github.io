@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quik 101</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+    <link rel="stylesheet" href="asset/main.css">
+    
+</head>
+    
+<body>
+    <div class="page">
+        <!--NAVBAR-->
+        <nav class="navbar">
+            <!--BUTTON-->
+            <span class="menu_toggle">
+                <i class="menu_open im im-menu-dot-h"></i>
+                <i class="menu_close im im-x-mark"></i>
+            </span>
+            <!--MENU-->
+            <ul class="menu_items">
+                <li><a href="index.html"><i class="im im-home fa-2x"></i>Home</a></li>
+                <li><a href="mission.html"><i class="im im-heart fa-2x"></i>Mission</a></li>
+                <li><a href="#"><i class="im im-mail fa-2x"></i>Blog</a></li>
+            </ul>   
+        </nav>
+        <!--PAGE-INNER-->
+        <div class="wrapper">
+            <div class="wrapper_inner">
+                <!--LOGO-->
+                <a href="index.html" class="logo_banner">
+                    <span id="logo"><img src="images/logo.svg" alt="" /></span>
+                    <h2 class="title">QUIK 101</h2>
+                </a>
+                <br><hr><br><br>
+                
+                <!--CONTENT-->
+                <main>
+                    <header>
+                        <h1>QUIK BLOG</h1>
+                        <p>Here will be my blog, full of my thoughts and ideas. You sure will like it!</p>   
+                    </header>
+                    <div class="coming-soon">COMING SOON<br>...</div>
+                    
+                    
+                </main>
+                
+                
+                <!--FOOTER-->
+                <footer>
+                    <div class="footer">
+                        <section class="contact">
+                            <h2>Let's Work Together</h2>
+                            <p>Have a project you'd like to discuss?</p>
+                            <button><a href="mailto:quik.azy@gmail.com">Email Me >></a></button>
+                        </section>
+                        <section class="connect">
+                            <span class="social">
+                                <a href="#"><i class="im im-mail"></i></a>
+                                <a href="#"><i class="im im-facebook"></i></a>
+                                <a href="#"><i class="im im-instagram"></i></a>
+                                <a href="#"><i class="im im-youtube"></i></a>
+                            </span>
+                        </section>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2020 Quik Ang. All rights reserved</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script>
+        var $page = $('.page');
+
+            $('.menu_toggle').on('click', function(){
+                $page.toggleClass('real');
+            });
+
+            $('.content').on('click', function(){
+                $page.removeClass('real');
+            });
+
+    </script>
+</body>
+</html>
