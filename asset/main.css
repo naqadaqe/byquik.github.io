@@ -13,13 +13,13 @@ html, body {
 }
 .page {
     height: 100%;
-    background-color: #567369;
+    background-color: #006064;
 }
 .wrapper {
     height: 200%;
     transform-origin: top left;
     transition: transform 0.7s cubic-bezier(1, 0.005, 0.24, 1);
-    background-color: #f0f0f0;
+    background-color: #ECF3F3;
 }
 .wrapper_inner {
     height: 50%;
@@ -36,7 +36,7 @@ footer{
 	height: auto;
 	width: 100%;
 	padding: 0;
-	background-color: #eee;
+	background-color: #ECF3F3;
 	background-size: 100%;
 	border-top: grey dotted 2px;    
 }
@@ -58,18 +58,19 @@ footer{
     text-align: center;
     display: inline-block;
     font-size: 20px;
-    background-color: #4CAF50; 
+    background-color: #FFD600; 
     border: none;
     border-radius: 8px;
     transition-duration: 0.4s;
 }
 .contact button a{
     text-decoration: none;
-    color: white;
+    color: #000;
 }
 
 .contact button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-weight: 600;
 }
 .connect{
     display: block;
@@ -82,7 +83,7 @@ footer{
     transition-duration: 0.4s;
 }
 .connect .social a:hover {
-  box-shadow: 0 0 30px #49a6fc;
+  box-shadow: 0 0 30px #00BEAC;
 }
 .copyright{
     border-top: #000 solid 1px;
@@ -99,14 +100,14 @@ footer{
     cursor: pointer;
     width: 100px;
     height: 80px;
-    background-color: #1abc9c;
+    background-color: #4ED4C6;
     border-bottom-right-radius: 100%;
 }
 .menu_toggle:active i {
     opacity: 0.8;
 }
 .menu_toggle i {
-    color: #f0f0f0;
+    color: #ECF3F3;
 }
 .menu_toggle .menu_open, .menu_toggle .menu_close {
     position: absolute;
@@ -148,7 +149,7 @@ footer{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #8adec1;
+    color: #BAF4EE;
     transition: color 0.2s;
 }
 .menu_items a .icon {
@@ -162,17 +163,17 @@ footer{
     margin-left: -33px;
     margin-top: -32px;
     border-radius: 100%;
-    border: 2px solid #f0f0f0;
+    border: 2px solid #ECF3F3;
     transition: border-color 0.2s;
 }
 .menu_items a:hover {
-    color: #f0f0f0;
+    color: #FFD600;
 }
 .menu_items a:hover .icon:after {
-    border-color: #74BBE8;
+    border-color: #00BEAC;
 }
 .menu_items a:active .icon {
-    color: #74BBE8;
+    color: #00BEAC;
 }
 /* Open the menu */
 .real .wrapper {
@@ -197,12 +198,15 @@ footer{
 
 /*** LOGO ***/
 .logo_banner{
-    display: block;
+    display: inline-flex;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #494c4e;
+    color: #002729;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#logo{
+    padding-right: 20px;
 }
 h1.title {
     padding-bottom: 15px;
@@ -211,7 +215,7 @@ h1.title {
 
 /*** CONTENT ***/
 body {
-    color: #494c4e;
+    color: #002729;
 }
 header img{
     border-radius: 5%;
@@ -228,30 +232,30 @@ header img{
     font-size: 13px;
     font-weight: 400;
     border-radius: 8px;
-    background-color: white;
-    border: 2px solid #1abc9c;
+    background-color: #ECF3F3;
+    border: 2px solid #00BEAC;
     transition-duration: 0.4s;
 }
 .resume button a{
     font-family: ;
     text-decoration: none;
-    color: black;
+    color: #000;
 }
 
 .resume button:hover{
-    background-color: #1abc9c;
+    background-color: #00BEAC;
     font-weight: bold;
-    color: white;
+    color: #ECF3F3;
 }
 /** FOOTER**/
 .social i{
     font-size: 20px;
-    background-color: #1abc9c;
+    background-color: #00BEAC;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
-    color: white;
+    color: #ECF3F3;
     border-radius: 50px;
 }
 
@@ -263,24 +267,24 @@ header img{
     padding: 10px;
     list-style: none;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000;
 }
 .skills li{
     margin: 20px 0;
 }
 .bar{
-    background: #353b48;
+    background: #003B3D;
     display: block;
     height: 5px;
     border: 1px solid rgba(0,0,0,);
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 10px #49a6fc;
+    box-shadow: 0 0 10px #4ED4C6;
 }
 .bar span{
     height: 7px;
     float: left;
-    background: #1abc9c;
+    background: #00BEAC;
 }
 .html{
     width: 95%;
@@ -339,9 +343,9 @@ header img{
     transition: transform .2s;
 }
 .circle-chart__circle {
-    animation: circle-chart-fill 2s reverse; /* 1 */ 
-    transform: rotate(-90deg); /* 2, 3 */
-    transform-origin: center; /* 4 */
+    animation: circle-chart-fill 2s reverse;
+    transform: rotate(-90deg); 
+    transform-origin: center; 
     
 }
 .circle-box:hover{
@@ -374,8 +378,8 @@ header img{
     text-align: center;
     font-size: 2em;
     font-weight: bolder;
-    color: white;
-    background-image: linear-gradient(#05668D, #7BDFF2);
+    color: #ECF3F3;
+    background-image: linear-gradient(#006064, #BAF4EE);
     
 }
 
